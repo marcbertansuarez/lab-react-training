@@ -1,3 +1,5 @@
+import React from "react";
+
 const Greetings = (props) => {
     
     const { lang, children } = props;

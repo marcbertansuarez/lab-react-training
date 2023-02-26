@@ -1,3 +1,4 @@
+import React from 'react';
 import visa from '../assets/images/visa.png';
 
 const CreditCard = (props) => {

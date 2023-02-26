@@ -4,41 +4,65 @@
   box-sizing: border-box;
 }
 
+.App {
+  margin-left: 20px;
+}
+
 .idcard {
   display: flex;
   flex-direction: row;
   border: 1px solid black;
   width: 98vw;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .idcard div {
   margin-top: 20px;
-  margin-left: 10px;
+}
+
+.idcards h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .greeting div {
   border: 1px solid black;
   width: 98vw;;
   margin-top: 10px;
-  margin-left: 10px;
+}
+
+.greeting h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .random div {
   border: 1px solid black;
   width: 98vw;;
   margin-top: 10px;
-  margin-left: 10px;
+}
+
+.random h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .box-color div {
   padding: 40px 0px;
   width: 98vw;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
+}
+
+.box-color h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.credit-cards-title {
+  margin-top: 20px;
 }
 
 .creditcard {
@@ -58,4 +82,46 @@
   margin: 20px
 }
 
+.rating h2 {
+  margin-bottom: 10px;
+}
 
+.rating div {
+  margin-bottom: 10px;
+}
+
+.driver-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.driver-card {
+  background-color: rgb(73, 80, 190);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  margin-top: 30px;
+  padding: 40px 0px;
+  color: white;
+  gap: 10px;
+  border-radius: 15px;
+}
+
+.driver-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.driver-card-info {
+  font-size: 18px;
+}
+
+.driver-cards-title {
+  margin-top: 20px;
+}

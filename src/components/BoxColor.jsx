@@ -1,3 +1,5 @@
+import React from "react";
+
 const BoxColor = (props) => {
   const { r, g, b } = props;
   const divStyle = {

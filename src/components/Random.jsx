@@ -1,3 +1,5 @@
+import React from "react";
+
 const Random = (props) => {
 
     const { min, max } = props;
