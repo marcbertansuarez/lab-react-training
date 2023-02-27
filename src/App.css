@@ -71,8 +71,33 @@
 }
 
 .creditcard img {
-  width: 30px;
-  margin-left: 320px;
+  width: 70px;
+  padding: 10px;
+}
+
+.image-visa {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bank-num {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.general-info-creditcard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.expires-bank {
+  display: flex;
+  flex-direction: row;
+  gap: 20px
 }
 
 .credit-cards {
