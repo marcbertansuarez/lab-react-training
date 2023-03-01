@@ -3,8 +3,7 @@ import React from "react";
 const IdCard = (props) => {
 
      const { lastName, firstName, gender, height, birth, picture} = props;
-     console.log(lastName)
-     console.log(birth)
+     
     return (
         <div className="idcard">
             <img src={picture} alt={firstName} />
