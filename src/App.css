@@ -150,3 +150,131 @@
 .driver-cards-title {
   margin-top: 20px;
 }
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.facebook img {
+  width: 200px;
+}
+
+.facebook-individual {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 30vw;
+}
+
+.active {
+  background-color: blue;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+.signup button {
+  border: none;
+  background-color: rgb(85, 85, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.clickable-picture {
+  margin: 20px 0;
+}
+.clickable-picture img {
+  width: 200px;
+}
+
+.like-button {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin: 20px 0;
+}
+
+.like-button button {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.dice {
+  margin: 20px 0;
+}
+.dice img {
+  width: 200px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.carousel img {
+  width: 200px;
+}
+
+.carousel-btn {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.carousel-btn button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(88, 88, 248);
+  border-radius: 5px; 
+}
+
+.table tbody{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.table tbody tr td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.color-pick {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.color-pick-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rgb-result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

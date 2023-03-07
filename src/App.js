@@ -10,6 +10,10 @@ import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
+import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignupPage';
+import RGBColorPicker from './components/RGBColorPicker';
 
 function App() {
   return (
@@ -118,13 +122,13 @@ function App() {
       <div>
         <LikeButton />
       </div>
-      <div>
+      <div className='clickable-picture'>
       <ClickablePicture
           img='maxence.png'
           imgClicked='maxence-glasses.png'
         />
       </div>
-      <div>
+      <div className='dice'>
       <Dice />
       </div>
       <div>
@@ -136,6 +140,18 @@ function App() {
             'https://randomuser.me/api/portraits/men/2.jpg'
           ]}
         />
+      </div>
+      <div>
+      <NumbersTable limit={12} />
+      </div>
+      <div>
+      <FaceBook />
+      </div>
+      <div>
+      <SignupPage />
+      </div>
+      <div>
+        <RGBColorPicker />
       </div>
     </div>
   );
